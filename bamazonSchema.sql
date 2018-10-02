@@ -15,9 +15,9 @@ CREATE TABLE products (
 
 SELECT * FROM products;
 
-  -- Inserted a set of records into the table
+  -- Insert 10 products into the table
   INSERT INTO products
-    (id,product_name, department_name, price, stock_quantity)
+    (item_id,product_name, department_name, price, stock_quantity)
   VALUES
     ("frame","home",15,20),
     ("spathiphyllum","plant",41.28,6),
